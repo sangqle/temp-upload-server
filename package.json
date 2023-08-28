@@ -5,7 +5,7 @@
   "repository": "git@github.com:sangqle/temp-upload-server.git",
   "license": "MIT",
   "scripts": {
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "express": "^4.18.2",

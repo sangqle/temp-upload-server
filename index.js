@@ -6,6 +6,10 @@ const port = 8080;
 
 app.use(express.json()); // Add JSON body parsing middleware
 
+app.get('/', (req, res) => {
+    res.json({ message: 'Hello World!' });
+});
+
 // Define the upload route
 app.post('/api/upload', (req, res) => {
     const { uuid } = req.query;
